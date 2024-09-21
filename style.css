@@ -1,0 +1,173 @@
+.logo-aulab{
+    padding-bottom: 10%;
+    padding-left: 30%;
+    padding-top: 10%;
+}
+
+#bg-1{
+    background-image: url(bg-1.jpg);
+    padding-top: 10px;
+    
+}
+
+p,h1,h2{
+    color: white;
+    padding-left: 30%;
+
+}
+
+#img-calendar{
+    padding-left: 73%;
+    position: relative;
+    left: calc(25%);
+    
+    
+}
+
+.calendar-date{
+    position: relative;
+    right: calc(10%);
+   
+}
+
+.container-date{
+    position:absolute;
+    bottom: 230px;
+   
+}
+
+.btn-custom{
+    color: rgb(255, 237, 0);
+    position: relative;
+    left: calc(15%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    bottom: 150px;
+    
+}
+
+.bg-2{
+   background-color: rgb(39,10,65);
+    
+}
+
+.img-icon-custom{
+    height: 60vh;
+    width: 80vh;
+    padding-left: 40%;
+    padding-top: 8%;
+
+}
+
+.bg-3{
+    background-image: url(bg-2.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.card-custom{
+    justify-content: center;
+    align-items:left;
+    position: relative;
+    top: 30%;
+    left: 35%;
+    
+}
+
+.bg-dark-custom{
+    background-color: rgb(41, 6, 72);
+   
+}
+
+.card-img-custom{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top:7%;
+    right: -5%;
+}
+
+.btn-card{
+    position: relative;
+    top:-5px;
+    left: 30px;
+    right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(237, 226, 7);  
+    color: black;
+}
+
+.text-custom-card{
+    font-size:xx-large;
+    padding-left: 3%;
+    align-items: left;
+}
+
+.card-body{
+    color: white;
+}
+
+
+.bg-4{
+    background-color: rgb(36, 7, 48);
+    background-size: cover;
+
+}
+
+.img-future-custom{
+    height: 40vh;
+    width: 40vh;
+    position: relative;
+    left: calc(50%);
+    top: 15%;
+    
+}
+
+.chi-siamo{
+    color: yellow;
+    
+}
+
+.col-chi-siamo{
+   padding-top: 10%;
+   padding-right: 20%;
+   padding-bottom: 10%;
+   align-items: center;
+}
+
+.bg-5{
+    background-image: url(bg-3.jpg);
+    background-size: cover;
+}
+
+.Marco{
+    color: yellow;
+}
+
+.img-marco{
+    height: 65vh;
+    width: 40vh;
+    position: relative;
+    top: calc(10%);
+}
+
+.marco-text{
+    font-size: large;
+
+}
+
+.text-marco{
+    padding-top: 10%;
+}
+
+.footer-custom{
+    background-color: black;
+}
+
+.footer-text{
+    color: white;
+}
