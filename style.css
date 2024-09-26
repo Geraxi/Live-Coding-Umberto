@@ -1,173 +1,94 @@
-.logo-aulab{
-    padding-bottom: 10%;
-    padding-left: 30%;
-    padding-top: 10%;
+body{
+    font-family: "montserrat, sans-serif";
 }
 
-#bg-1{
-    background-image: url(bg-1.jpg);
-    padding-top: 10px;
-    
-}
-
-p,h1,h2{
-    color: white;
-    padding-left: 30%;
-
-}
-
-#img-calendar{
-    padding-left: 73%;
-    position: relative;
-    left: calc(25%);
-    
-    
-}
-
-.calendar-date{
-    position: relative;
-    right: calc(10%);
-   
-}
-
-.container-date{
-    position:absolute;
-    bottom: 230px;
-   
+:root{
+    --yellow: rgb(214,195,48);
+    --main: rgb(27,21,64);
+    --acc: rgb(187,38,193);
 }
 
 .btn-custom{
-    color: rgb(255, 237, 0);
-    position: relative;
-    left: calc(15%);
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    position: absolute;
-    bottom: 150px;
-    
+    border: 1px solid var(--yellow);
+    color: var(--yellow);
 }
 
-.bg-2{
-   background-color: rgb(39,10,65);
-    
+.btn-custom:hover{
+    background-color: var(--yellow);
+    color: black;
+    transition: 0.5s;
 }
 
-.img-icon-custom{
-    height: 60vh;
-    width: 80vh;
-    padding-left: 40%;
-    padding-top: 8%;
+.header-custom{
+    background-image: url(bg-1.jpg);
+}
+
+.bi-calendar2-week{
+color: var(--yellow);
+}
+
+.data{
+    font-weight: 700;
+}
+
+.section2-custom{
+    background-color: var(--main);
+}
+
+.calendar-form{
+    font-size: 50px;
+    margin-right: 20px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    padding: 10px 20px;
 
 }
 
-.bg-3{
+.section3-custom{
+    min-height: 70vh;
     background-image: url(bg-2.jpg);
     background-size: cover;
-    height: 100vh;
-}
-
-.card-custom{
-    justify-content: center;
-    align-items:left;
-    position: relative;
-    top: 30%;
-    left: 35%;
-    
-}
-
-.bg-dark-custom{
-    background-color: rgb(41, 6, 72);
-   
-}
-
-.card-img-custom{
-    height: 50px;
-    width: 50px;
-    position: relative;
-    top:7%;
-    right: -5%;
-}
-
-.btn-card{
-    position: relative;
-    top:-5px;
-    left: 30px;
-    right: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-    background-color: rgb(237, 226, 7);  
-    color: black;
-}
-
-.text-custom-card{
-    font-size:xx-large;
-    padding-left: 3%;
-    align-items: left;
-}
-
-.card-body{
-    color: white;
-}
-
-
-.bg-4{
-    background-color: rgb(36, 7, 48);
-    background-size: cover;
+    background-position: center;
 
 }
 
-.img-future-custom{
-    height: 40vh;
-    width: 40vh;
-    position: relative;
-    left: calc(50%);
-    top: 15%;
-    
+
+.form-custom{
+    background-color: var(--main);
+    padding: 70px 20px;
 }
 
-.chi-siamo{
-    color: yellow;
-    
+input{
+    background-color: var(--main);
+    border:none;
+    border-bottom: 1px solid var(--acc);
 }
 
-.col-chi-siamo{
-   padding-top: 10%;
-   padding-right: 20%;
-   padding-bottom: 10%;
-   align-items: center;
+.btn-custom{
+    background-color: var(--yellow);
 }
 
-.bg-5{
+.btn-custom-form{
+    background-color: var(--yellow);
+}
+
+.form-custom{
+    background-color: var(--main);
+    padding: 70px 20px;
+    top: 100px;
+}
+
+.section4-custom{
+    background-color: rgb(17,33,44);
+    padding: 100px 20px;
+}
+
+.h2-title{
+    color: var(--yellow);
+}
+
+.section5-custom{
     background-image: url(bg-3.jpg);
     background-size: cover;
-}
-
-.Marco{
-    color: yellow;
-}
-
-.img-marco{
-    height: 65vh;
-    width: 40vh;
-    position: relative;
-    top: calc(10%);
-}
-
-.marco-text{
-    font-size: large;
-
-}
-
-.text-marco{
-    padding-top: 10%;
-}
-
-.footer-custom{
-    background-color: black;
-}
-
-.footer-text{
-    color: white;
+    background-position: center;
 }
